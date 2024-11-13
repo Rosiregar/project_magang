@@ -1,6 +1,6 @@
 <?php
 
-$conn =mysqli_connect("localhost","root","","bpjs_web");
+$conn =mysqli_connect("localhost","root","","db_web");
 
 function query ($query) {
     global $conn;
